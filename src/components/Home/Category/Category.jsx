@@ -8,7 +8,7 @@ const Category = () => {
   const [data, setData] = useState([])
   const {pathname} = useLocation()
   useEffect(() =>{
-   let newData = plants.filter((value) => value.category. toLocaleLowerCase() === 
+   let newData = plants.filter((value) => value.category() === 
    category.replace(':', '').toLocaleLowerCase())
    setData(newData)
   }, [pathname] )

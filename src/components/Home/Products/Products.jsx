@@ -2,7 +2,7 @@ import React from 'react'
 import './style'
 import { Container, Right, Left, Wrapper, Title } from './style'
 import {category} from '../../../utils/category'
-import Category from '../Category/Category'
+
 import { Outlet } from 'react-router-dom'
 
 

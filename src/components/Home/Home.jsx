@@ -1,5 +1,5 @@
 import React from 'react'
-import Category from './Category/Category'
+
 import Main from './Main/Main'
 import Products from './Products/Products'
 import './style'
